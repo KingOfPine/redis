@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <link rel="stylesheet" href="../public/css/bootstrap.css"/>
+    <link rel="stylesheet" href="../public/css/bootstrap-table.css"/>
+
+
+    <script src="../public/js/jquery-1.9.1.min.js"></script>
+    <script src="../public/js/bootstrap.js"></script>
+    <script src="../public/js/bootstrap-table.js"></script>
+    <script src="../public/js/bootstrap-table-zh-CN.js"></script>
+
+
+</head>
+<body>
+
+<div>我只是测试一下而已</div>
+<div id="table2ToolBar" class="btn-group">
+    <button class="delete btn btn-default" type="button">
+        <span class="glyphicon glyphicon-trash"></span>删除</button>
+</div>
+<table id="userList"></table>
+
+<div role="dialog" data-backdrop="static" data-keyboard="false">
+    帐号：<input type="text" id="username" name="username"/> <br/>
+    密码：<input type="text" id="password" name="password"/> <br/>
+    名称：<input type="text" id="nickname" name="nickname"/> <br/>
+    <button type="reset" class="revert">取消</button>
+    <button type="button" id="addUser">新建</button>
+</div>
+
+</body>
+<script src="../static/indexJs.js"></script>
+</html>
